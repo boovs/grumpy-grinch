@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5872207571016017664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5872207571016017671}
+  - component: {fileID: 5872207571016017670}
+  m_Layer: 0
+  m_Name: FlyerSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5872207571016017671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5872207571016017664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 172.7, y: 40, z: -0.50388026}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5872207571016017670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5872207571016017664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf2b7c79943b4974b8d8142cfb76e823, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elfPrefab: {fileID: 2255195034792940468, guid: eaa0d61b9ea817c498a28a97fe73c549, type: 3}
+  reindeerPrefab: {fileID: 6467074217051198802, guid: 9c4c2630aadd3fb4d9fbbabd823b182e, type: 3}
+  flyerPrefab: {fileID: 1911481351534128000, guid: 9b8652276d482fc42b2e9b43ae8bdcfd, type: 3}
+  elfInterval: 50
+  reindeerInterval: 500
+  flyerInterval: 7
+  numMobsSpawned: 0
